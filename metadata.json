@@ -1,0 +1,12 @@
+{
+  "name": "VYBE",
+  "description": "Cascade: A next-generation social platform for creators and communities, featuring AI-powered tools, deep monetization, and a unique user experience. Founded by Ugorji Goodluck.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone",
+    "geolocation"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

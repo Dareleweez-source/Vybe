@@ -1,0 +1,74 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    
+    <!-- Updated SEO & Social Sharing Meta Tags -->
+    <title>Cascade - The Social Platform for Creators</title>
+    <meta name="description" content="Cascade: A next-generation social platform for creators and communities, featuring AI-powered tools, deep monetization, and a unique user experience.">
+    <meta property="og:title" content="Cascade - The Social Platform for Creators">
+    <meta property="og:description" content="Join Cascade, a next-generation social platform for creators and communities.">
+    <meta property="og:image" content="/logo-share.png">
+    <meta property="og:url" content="https://cascade.social">
+    <meta property="og:type" content="website">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            colors: {
+              // Primary color
+              primary: '#1877F2',
+              'primary-hover': '#166FE5',
+              'primary-light': 'rgba(24, 119, 242, 0.15)',
+
+              // Light Theme (Clean White Background)
+              background: '#FFFFFF',
+              surface: '#FFFFFF',
+              'surface-hover': '#F5F5F5',
+              'surface-secondary': '#F0F2F5',
+              border: '#E4E6EB',
+              'on-surface': '#050505',
+              'on-surface-secondary': '#65676B',
+              
+              // Dark Theme (Facebook Dark Mode Signature Pattern)
+              'dark-background': '#18191A',         // Facebook dark charcoal canvas background
+              'dark-surface': '#242526',            // Facebook dark elevated card surface
+              'dark-surface-secondary': '#3A3B3C',  // Facebook dark pill input & circular action icon button background
+              'dark-surface-hover': '#4E4F50',      // Facebook dark hover state
+              'dark-border': '#393A3B',            // Facebook dark card borders & dividers
+              'dark-on-surface': '#E4E6EB',        // Facebook high contrast text
+              'dark-on-surface-secondary': '#B0B3B8', // Facebook muted text & timestamps 
+            },
+          },
+        },
+      }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://aistudiocdn.com/react-dom@^18.3.0/",
+    "react-dom": "https://aistudiocdn.com/react-dom@^18.3.0",
+    "react/": "https://aistudiocdn.com/react@^18.3.0/",
+    "react": "https://aistudiocdn.com/react@^18.3.0",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^0.11.0",
+    "path": "https://esm.sh/path@^0.12.7",
+    "express": "https://esm.sh/express@^5.2.1",
+    "url": "https://esm.sh/url@^0.11.4"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="bg-background text-on-surface dark:bg-dark-background dark:text-dark-on-surface transition-colors duration-200 text-sm">
+    <div id="root"></div>
+    <div id="modal-root"></div>
+    <script type="module" src="index.tsx"></script>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
